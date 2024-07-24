@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Producto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Island Honey
+        </h1>
+    </header>
+    <div class="container-title">Honey</div>
+    <main>
+        <div class="container-img">
+            <img src="img/4.jpg" alt="">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>L. 350.00 </span>
+            </div>
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Producto</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoje el tipo de producto
+                        </option>
+                        <option value="rojo">Miel</option>
+                        <option value="rojo">Balsamica</option>
+                        <option value="rojo">Jabon</option>
+                        <option value="rojo">Shampoo</option>
+                        <option value="rojo">Crema</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Tamaño</label>
+                    <select name="size" id="size">
+                        <option disabled selected value="">
+                            Escoje el tamaño del tarron de miel
+                        </option>
+                        <option value="rojo">60 ml </option>
+                        <option value="rojo">8oz sin panal</option>
+                        <option value="rojo">8oz con panal</option>
+                        <option value="rojo">16oz sin panal</option>
+                        <option value="rojo">16oz con panal</option>
+                        <option value="rojo">750 ml</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity" />
+                    
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-regular fa-plus"></i> Comprar Ahora</button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripcion</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description hidden">
+                    <p> 
+                        Nuestro Producto se basa en la producción de miel de manera natural. Cuando se dice natural se refiere a que nosotros como productores no alimentamos las abejas ya que esto podría cambiar la textura y sabor de la miel, al contrario, las abejas obreras salen al campo a realizar la debida labor de la polinización y adquieren su propia comida y polen para la creación de miel. Luego nosotros extremos la miel y la embazamos en diferentes presentaciones para el cliente. Además de eso contamos con productos derivados de la miel tales como: El Jabón, El Shampoo, La Miel Balsámica y La Crema.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    
+                    <h4>Caracteristicas y Beneficios</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <h5>Caracteristicas</h5>
+                    <ul>
+                        <li>No posee adictivos ni conservantes</li>
+                        <li>Es origen Floral</li>
+                        <li>Variedad de nutrientes</li>
+                        <li>No posee una fecha de vencimiento (nunca se vence) </li>
+                    </ul>
+                    <h5>Beneficios</h5>
+                    <ul>
+                        <li>Alivio de la tos y el dolor de garganta</li>
+                        <li>Promueve la curación de heridas y quemaduras</li>
+                        <li>Hidratante natural:</li>
+                        <li>Fuente de energía rápida</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>Muchos de los clientes mencionan que el producto no tiene una textura y sabor como a azúcar por ello nos elogian. También mencionan lo mucho que les ayudan ciertos de los elementos derivados de la miel como la balsámica y el jabón.</p>
+                </div>
+            </div>
+            
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="https://www.instagram.com/island.honey.roatan?igsh=ODRjN2h1dTZmZm1i "><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/share/Vxjmwi3WWM7aJocg/?mibextid=qi2Omg "><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="container-related-product">
+        <h2>Mas Productos</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/1.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Jabon a Base de Miel</h3>
+                        <p class="category">Derivados de la Miel</p>
+                    </div>
+                    <div class="precio">L. 70.00</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/3.jpg" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Miel Balsamica</h3>
+                        <p class="category">Derivados de la Miel</p>
+                    </div>
+                    <div class="precio">L. 280.00</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/7.jpg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Crema a Base de Miel</h3>
+                        <p class="category">Derivados de la Miel</p>
+                    </div>
+                    <div class="precio">L. 100.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/6.jpg" alt="producto-4">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Shampoo a Base de Miel</h3>
+                        <p class="category">Derivados de la Miel</p>
+                    </div>
+                    <div class="precio">L. 180.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Island Honey</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/81581fb069.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
